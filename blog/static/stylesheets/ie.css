@@ -1,0 +1,28 @@
+
+
+h1 
+    {
+        filter: alpha(opacity=30);
+
+    }
+
+#site_header
+    {
+        filter:
+            progid:DXImageTransform.Microsoft.Shadow(color=#666666,direction=180,strength=3);
+            
+        
+    } 
+    
+    
+.ie-shadow {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:105%;
+    z-index:1;
+    background:#111111;
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4', MakeShadow='true', ShadowOpacity='0.60');
+    
+}
